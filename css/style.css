@@ -1,0 +1,100 @@
+.navbar-brand>img{
+    height: 50px;
+}
+
+#map {
+    height: 100%;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+#main {
+    height: 400px;
+    background-image: url(../images/main1.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-position: center;
+    color:white;
+
+    display: flex;
+    align-items: flex-end;
+
+}
+
+#main {
+    font-family: 'lobster two', cursive;
+}
+
+.overlay {
+    
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0), darkorange);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    padding-bottom: 10px; 
+}
+
+.btn {
+    background-color: orange;
+    color: white;
+}
+
+.row {
+    background-color: beige;
+    border-radius: 25px;
+    max-width:  1000px;
+    margin: auto;
+}
+
+body {
+    background-image: url(../images/pattern1.png);
+}
+
+.carouselwhole {
+    max-height: 400px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.carousel-item>img {
+    border-radius: 25px;
+}
+
+h2{
+    font-family: 'Macondo', cursive;
+}
+
+/* mobile */
+@media screen and (min-width:0px) {
+  
+
+}
+
+/* ipad */
+@media screen and (min-width:768px) {
+  
+
+}
+
+/* 992 */
+@media screen and (min-width:992px) {
+
+    .navbar-brand>img{
+        height: 70px;
+    }
+
+}
+
+/* 1200 */
+@media screen and (min-width:1200px) {
+
+    .navbar-brand>img{
+        height: 70px;
+    }
+
+}
